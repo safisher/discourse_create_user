@@ -25,11 +25,14 @@ Note that you need to add your API Key, API User and URL at the top of the progr
 **Other Info**
 
 These threads might be helpful to anyone wishing to hack their own solution:
-  https://meta.discourse.org/t/creating-user-via-api/36133
-  https://meta.discourse.org/t/creating-active-users-via-the-api-gem/33133/36
-  https://meta.discourse.org/t/creating-a-user-through-restful-users-api/9359
+https://meta.discourse.org/t/creating-user-via-api/36133
+
+https://meta.discourse.org/t/creating-active-users-via-the-api-gem/33133/36
+
+https://meta.discourse.org/t/creating-a-user-through-restful-users-api/9359
 
 Here is another solution using Bash
-  https://github.com/pfaffman/discourse-user-creator/blob/master/create-user
+
+https://github.com/pfaffman/discourse-user-creator/blob/master/create-user
 
 
