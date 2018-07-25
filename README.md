@@ -22,3 +22,10 @@ The new user will be active and approved. This appears to happen without an emai
 
 Note that you need to add your API Key, API User and URL at the top of the program before this will run (see the "Required" section at the top of the program).
 
+**Other Info**
+
+These threads might be helpful to anyone wishing to hack their own solution:
+  https://meta.discourse.org/t/creating-user-via-api/36133
+  https://meta.discourse.org/t/creating-active-users-via-the-api-gem/33133/36
+  https://meta.discourse.org/t/creating-a-user-through-restful-users-api/9359
+
