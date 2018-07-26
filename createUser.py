@@ -174,7 +174,7 @@ if __name__ == '__main__':
     if isExisting(clArgs.email, clArgs.username, clArgs.apiKey, clArgs.apiUser, clArgs.url):
         sys.exit(1)
         
-    # if we got this far then we have a unique username and email address, so go ahead and add user.
+    # if we got this far then we have a unique username and email address, so go ahead and add user, if relevant.
     if clArgs.checkOnly:
         print 'Unique username and email:', clArgs.username, clArgs.email
     
