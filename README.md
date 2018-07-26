@@ -41,7 +41,7 @@ The new user will be active and approved. This appears to happen without an emai
 	full name \t username \t email
 </pre>
 
-**Examples:**
+**Example input file:**
 <pre>
 Test User	test.user	test@gmail.com
 	no_full_name	no_full_name@gmail.com
