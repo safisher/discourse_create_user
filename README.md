@@ -1,4 +1,3 @@
-## discourse_create_user
 ### Create new users in Discourse
 
 This is a set of Python scripts that will add users to a Discourse forum using the Discourse API.
