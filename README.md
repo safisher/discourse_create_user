@@ -13,28 +13,28 @@ The program license can be found here: http://kim.bio.upenn.edu/software/LICENSE
 ### Usage
 
 **Add a single user:**
-<pre>
+<code>
 	createUser.py [-h] [-v] [-c] [-n FULLNAME] -u USERNAME -e EMAIL -k API_KEY -a API_USER -w URL
-</pre>
+</code>
 
 **Example usage:**
-<pre>
+<code>
 	createUser.py -n "Test User" -u test.user -e test@gmail.com -k yourAPIKey -a yourAPIUsername -w https://1.1.1.1
-</pre>
+</code>
 
 The program will verify that the username and email address are unique before attempting to add the new user. You can use the -c option to just test for uniqueness without creating a new user.
 
 The new user will be active and approved. This appears to happen without an email being sent, at least in my setup. New user accounts will be created with a random password. So users will need to use the password-reset ("YOUR-DISCOURSE-URL/password-reset") form to log in.
 
 **Add a list of user from a tab delimited file:**
-<pre>
+<code>
 	importUsers.py [-h] [-v] [-c] [-f TSV_FILE] -k APIKEY -a APIUSER -w URL
-</pre>
+</code>
 
 **Example usage:**
-<pre>
+<code>
 	./importUsers.py -c -f users.tsv -k yourAPIKey -a yourAPIUsername -w https://1.1.1.1
-</pre>
+</code>
 
 **The tab delimited file should be formatted as follows with one user per line. **
 <pre>
