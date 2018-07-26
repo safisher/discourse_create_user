@@ -43,10 +43,10 @@ The new user will be active and approved. This appears to happen without an emai
 
 **Examples:**
 <pre>
-	Test User	test.user	test@gmail.com
-		no_full_name	no_full_name@gmail.com
-	Another User	another.user	testing@gmail.com
-<pre>
+Test User	test.user	test@gmail.com
+	no_full_name	no_full_name@gmail.com
+Another User	another.user	testing@gmail.com
+</pre>
 
 ***
 
