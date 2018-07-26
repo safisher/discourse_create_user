@@ -28,7 +28,7 @@ See: https://docs.discourse.org
 # INITIALIZATIONS
 #------------------------------------------------------------------------------------------
 
-import sys, os, string, argparse
+import sys, os, string, argparse, time
 from subprocess import Popen, PIPE
 
 import createUser
@@ -93,7 +93,10 @@ while 1:
     fullname = newUser[0]
     username = newUser[1]
     email = newUser[2]
-    
+
+    # try to avoid rate_limit
+    time.sleep(5)
+
     if createUser.isExisting(email, username, clArgs.apiKey, clArgs.apiUser, clArgs.url):
         # the username and/or email exists so move on to next user
         numExisting += 1

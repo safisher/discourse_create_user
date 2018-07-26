@@ -76,7 +76,7 @@ def emailExists(email, username, apiKey, apiUser, url):
     if not output == "[]" :
         # email exists
         existingUser = output.split(",")[1].split(":")[1].replace('"', '')
-        if existingUser != username:
+        if existingUser.lower() != username.lower():
             sys.stderr.write('ERROR: Email "' + email + '" already exists under username ' + existingUser + ', not username "' + username + '".\n')
         return True
 
