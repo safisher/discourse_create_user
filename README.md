@@ -36,7 +36,7 @@ The new user will be active and approved. This appears to happen without an emai
 	./importUsers.py -c -f users.tsv -k yourAPIKey -a yourAPIUsername -w https://1.1.1.1
 </pre>
 
-**The tab delimited file should be formatted as follows with one user per line. **
+**The tab delimited file should be formatted as follows with one user per line.**
 <pre>
 	full name \t username \t email
 </pre>
